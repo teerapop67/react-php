@@ -1,0 +1,65 @@
+.all-user {
+  padding: 15px;
+}
+
+.margin100 {
+  margin-top: 100px;
+}
+
+.container-user {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  background-color: #222;
+  border: 2px solid #222;
+  border-radius: 12px;
+}
+
+.header {
+  font-size: 27px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: -80px;
+}
+
+.show {
+  gap: 30px;
+  padding: 0 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topic > p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.topic-header {
+  display: grid;
+  gap: 30px;
+  color: #999;
+  text-align: center;
+  padding: 0 20px;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.btn {
+  width: 100px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  font-weight: 700;
+  font-size: 14;
+  color: #fff;
+  border-radius: 12px;
+}
